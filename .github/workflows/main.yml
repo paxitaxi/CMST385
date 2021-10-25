@@ -3,20 +3,18 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Deploy HTML Files to AppService - CMST385
-
 on:
  push:
   branches:
-   - main
-   
+   - main  
 jobs:
- build-and-deploy:
-  runs-on: latest-windows
-    steps:
-    - uses: actions/checkout@main
-    - name: Deploy to Azure Web App
-     uses: azure/webapps-deploy@v1
-     with:
-      app-name: 'cmst385-ppittendreigh"
-      slot-name: 'production'
-      publish-profile: ${{ secrets.AppServiceCMST385 }}
+build-and-deploy:
+runs-on: latest-windows
+steps:
+ - uses: actions/checkout@main
+ - name: Deploy to Azure Web App
+uses: azure/webapps-deploy@v1
+with:
+ app-name: 'cmst385-ppittendreigh"
+ slot-name: 'production'
+ publish-profile: ${{ secrets.AppServiceCMST385 }}
