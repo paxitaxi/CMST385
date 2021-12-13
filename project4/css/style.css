@@ -1,0 +1,198 @@
+body {
+	font-size: 16pt;
+	background-color: FloralWhite;
+	font-family: Poppins, Verdana, sans-serif;
+}
+
+header {
+	background-image: url("images/header_photo.jpg");
+	height: 200pt;
+	padding: 15pt;
+}
+
+footer {
+	background-image: url("images/header_photo.jpg");
+	height: 100pt;
+	padding: 15pt;
+}
+
+h1 {
+	color: rgba(0, 81, 81, 1);
+	font-family: Merriweather, serif;
+	font-size: 66px;
+	text-align: center;
+	margin: 5pt 5pt 5pt 5pt;
+}
+
+h2 {
+	color: rgba(0, 81, 81, 1);
+	font-family: Merriweather, serif;
+	font-size: 34px;
+	margin-bottom: 5pt;
+}
+
+h3 {
+	font-family: Merriweather, serif;
+	font-size: 22px;
+}
+
+
+p {
+	font-family: Poppins, sans-serif;
+}
+
+hr {
+	width: 70%;
+}
+
+/* unvisited link */
+a:link {
+  color: rgba(0, 81, 81, 1);
+}
+
+/* visited link */
+a:visited {
+  color: DarkSlateGrey;
+}
+
+/* mouse over link */
+a:hover {
+  color: GoldenRod;
+}
+
+/* selected link */
+a:active {
+  color: MediumSeaGreen;
+}
+
+.nav {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	background-color: white;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 10pt;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Poppins, sans-serif;
+	border: 3px solid rgba(0, 81, 81, 1);
+}
+
+.banner1 hr {
+	width: 45%;
+}
+
+.banner1 h2 {
+	text-align: center;
+	margin-bottom: 25pt;
+}
+
+.banner2 {
+	width: 65%;
+	margin: auto;
+	margin-top: 30pt;
+	display: flex;
+	margin-bottom: 30pt;
+	
+}
+
+.box1 {
+	width: 80%;
+}
+	
+	
+	
+.box1 hr {
+	width: 100%;
+	float:left;
+	
+}	
+
+.banner2 p {
+	clear: left;
+}
+
+.self {
+	float: right;
+	border: 3px solid rgba(0, 81, 81, 1);
+	margin-left: 20pt;
+	background-color: white;
+}
+
+.box2 hr {
+	width: 100%;
+	display: inline-block;
+	
+}	
+
+.work {
+	clear: left;
+}
+
+.box2 {
+	width: 70%;
+	margin: auto;
+}
+
+.box2 h2 {
+	text-align: center;
+}
+
+.threecolumn {
+	width: 28%;
+	margin-left: 30pt;
+	margin-right: 30pt;
+}
+
+.threecolumn h2 {
+	text-align: center;
+}
+
+.threecolumn li {
+	clear: left;
+	font-family: Poppins, sans-serif;
+	font-size: 14pt;
+}
+
+.threecolumn p {
+	text-align: center;
+	font-size: 14pt;
+}
+
+footer p {
+	text-align: center;
+	font-size: 12pt;
+	margin-top: 40pt;
+	margin-bottom: 40pt;
+}
+
+img {
+	max-width: 70%;
+	height: auto;
+
+}
+
+.self {
+	width: 250pt;
+	height: 250pt;
+}
+
+.image {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+	border: 2pt solid black;
+}
+
+form {
+	margin: auto;
+}
